@@ -1,10 +1,10 @@
 import React from "react";
-import Dummy_Meals from "../../data/Dummy";
+import { DUMMY_MEALS } from "../../data/Dummy";
 import "./AvailableMeals.css";
 import Card from "../UI/Card";
 import MealItem from "./MealItem/MealItem";
 function AvailableMeals() {
-  const mealsList = Dummy_Meals.map((meal) => (
+  const mealsList = DUMMY_MEALS.map((meal) => (
     <MealItem
       id={meal.id}
       key={meal.id}

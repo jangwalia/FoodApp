@@ -25,4 +25,13 @@ const DUMMY_MEALS = [
   },
 ];
 
-export default DUMMY_MEALS;
+const DUMMY_Cart = [
+  {
+    id: "c1",
+    name: "Sushi",
+    price: 22.99,
+    amount: 2,
+  },
+];
+
+export { DUMMY_MEALS, DUMMY_Cart };
